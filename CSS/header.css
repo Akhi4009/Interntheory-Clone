@@ -1,0 +1,45 @@
+header {
+  position: sticky;
+  top: 0px;
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  gap: 10px;
+}
+header {
+  width: 100%;
+  padding: 0px;
+  box-shadow: 0px 2px 2px -1px rgb(0 0 0 / 20%);
+  background-color: #fff;
+}
+#sign {
+  width: 100%;
+  color: #fff;
+  background-color: #df1e2e;
+  /* padding: 8px 24px; */
+  font-size: 0.9375rem;
+}
+footer {
+  background-color: #446478;
+}
+footer > div,
+footer > div:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+footer a > p {
+  color: white;
+}
+#social {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+@media all and (min-width: 767px) and (max-width: 1024px) {
+}

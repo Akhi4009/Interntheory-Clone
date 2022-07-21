@@ -1,0 +1,33 @@
+#signIn {
+  width: 40%;
+  margin: 40px auto;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+}
+form {
+  display: grid;
+  gap: 10px;
+}
+label {
+  font-size: 20px;
+}
+#name,
+#password {
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: lightskyblue;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+  #signIn {
+    width: 80%;
+  }
+} ;
