@@ -1,0 +1,165 @@
+.middle {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: url(https://assets.interntheory.com/creative/Homepage-Banner.png)
+    center center / cover;
+  min-height: 60vh;
+  color: white;
+  font-size: 20px;
+}
+#middle > h5 > span {
+  background-color: red;
+  padding: 5px;
+}
+#logo {
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+#logo > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.int1,
+.int2,
+.int3,
+.int4,
+.int5,
+.int6,
+.int7,
+.int8 {
+  background: url(https://assets.interntheory.com/creative/home-internships/Marketing-Icon.jpg)
+    center center / cover;
+  overflow: hidden;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 4px;
+  height: 180px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  display: grid;
+
+  position: relative;
+}
+.int2 {
+  background: url(https://assets.interntheory.com/creative/home-internships/BD.jpg)
+    center center / cover;
+}
+.int4 {
+  background: url(https://assets.interntheory.com/creative/home-internships/Finance.jpg)
+    center center / cover;
+}
+.int5 {
+  background: url(https://assets.interntheory.com/creative/home-internships/Graphic.jpg)
+    center center / cover;
+}
+.int6 {
+  background: url(https://assets.interntheory.com/creative/home-internships/HR.jpg)
+    center center / cover;
+}
+.int7 {
+  background: url(https://assets.interntheory.com/creative/home-internships/Eng.jpg)
+    center center / cover;
+}
+.int8 {
+  background: url(https://assets.interntheory.com/creative/home-internships/All-Internships.jpg)
+    center center / cover;
+}
+.int3 {
+  background: url("https://assets.interntheory.com/creative/home-internships/Content-Writing.jpg")
+    center center / cover;
+}
+#work-exp {
+  text-align: center;
+}
+#linkIntern {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+}
+.skill1,
+.skill2,
+.skill3 {
+  background: url(https://assets.interntheory.com/creative/home-courses/Homepage-stock.jpg)
+    center center / cover;
+  overflow: hidden;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 4px;
+  height: 180px;
+  text-align: center;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  display: flex;
+
+  position: relative;
+}
+.skill2 {
+  background: url(https://assets.interntheory.com/creative/home-courses/Homepage-digital.jpg)
+    center center / cover;
+}
+.skill3 {
+  background: url(https://assets.interntheory.com/creative/home-courses/Homepage-web.jpg)
+    center center / cover;
+}
+#skill > div > h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+#linkSkill {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+#consGrow {
+  width: 70%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+#consGrow > div > img {
+  width: 60%;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  #logo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #linkIntern {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #linkSkill {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media all and (min-width: 320px) and (max-width: 767px) {
+  #logo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #linkIntern {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #linkSkill {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #consGrow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

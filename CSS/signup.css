@@ -1,0 +1,33 @@
+#register {
+  width: 40%;
+  margin: 40px auto;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+}
+form {
+  display: grid;
+  gap: 15px;
+}
+input[type="text"],
+select,
+#password,
+#mbl {
+  padding: 10px;
+  font-size: 20px;
+}
+input[type="submit"] {
+  padding: 10px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  background-color: lightskyblue;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+  #register {
+    width: 80%;
+  }
+} ;
