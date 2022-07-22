@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
   background: url(https://assets.interntheory.com/creative/Homepage-Banner.png)
     center center / cover;
   min-height: 60vh;
@@ -46,7 +46,7 @@
   color: white;
   display: grid;
 
-  position: relative;
+  /* position: relative; */
 }
 .int2 {
   background: url(https://assets.interntheory.com/creative/home-internships/BD.jpg)
@@ -103,8 +103,6 @@
 
   color: white;
   display: flex;
-
-  position: relative;
 }
 .skill2 {
   background: url(https://assets.interntheory.com/creative/home-courses/Homepage-digital.jpg)
@@ -136,6 +134,9 @@
 
 #consGrow > div > img {
   width: 60%;
+}
+p {
+  line-height: 20px;
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
