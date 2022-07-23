@@ -27,7 +27,7 @@ p {
   padding: 10px;
 }
 
-button {
+#container button {
   background-color: darkred;
   color: white;
   border: none;
@@ -47,7 +47,7 @@ button {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media all and (min-width: 720px) and (max-width: 767px) {
+@media all and (min-width: 3 20px) and (max-width: 767px) {
   #container {
     grid-template-columns: repeat(2, 1fr);
   }

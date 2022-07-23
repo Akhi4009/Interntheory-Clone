@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internship</title>
+    <link rel="stylesheet" href="/CSS/header.css" />
+    <link rel="stylesheet" href="/CSS/job.css" />
+    <style>
+      #side-bar {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #000;
+        left: -330px;
+        transition: 0.4s;
+      }
+      #side-bar:active {
+        left: 0;
+      }
+      #side-bar ul li {
+        list-style: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px;
+      }
+      #side-bar .toggle-btn {
+        position: absolute;
+        top: 30px;
+        left: 330px;
+      }
+      .toggle-btn span {
+        width: 45px;
+        height: 4px;
+        background: #000;
+        display: block;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="nav-bar">
+        <div class="nav">
+          <div id="side-bar">
+            <div class="toggle-btn" onclick="show()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul>
+              <li>Home</li>
+              <li>Course</li>
+              <li>Internship</li>
+              <li>Job</li>
+            </ul>
+          </div>
+          <div>
+            <a href="/day-2/index.html">
+              <img
+                src="https://assets.interntheory.com/creative/logo.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="nav">
+          <div>
+            <button>
+              <a href="/day-2/cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </button>
+          </div>
+          <div>
+            <a role="button" tabindex="0" href="/day-2/signin.html">
+              <span id="sign">SIGN IN</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="filter">
+      <select name="city" id="city">
+        <option value="">City</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Banglore">Banglore</option>
+        <option value="Noida">Noida</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Pune">Pune</option>
+        <option value="Lucknow">Lucknow</option>
+      </select>
+
+      <select name="" id="internType">
+        <option value="">Type</option>
+        <option value="Full Time Internship">Full Time</option>
+        <option value="Work From Home Internship">Work From Home</option>
+        <option value="Part Time Internship">Part Time Internship</option>
+      </select>
+
+      <select name="" id="preference">
+        <option value="">Preferences...</option>
+        <option value="Web Design And Development">
+          Web Design And Development
+        </option>
+        <option value="Content Writing">Content Writing</option>
+        <option value="Software Development">Software Development</option>
+        <option value="Data Analysts">Data Analysts</option>
+        <option value="Digital Marketing">Digital Marketing</option>
+        <option value="Finance">Finance</option>
+        <option value="Business Development">Business Development</option>
+        <option value="Graphic Designing">Graphic Designing</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Human Resources">Human Resources</option>
+      </select>
+    </div>
+    <div id="intern">
+      <div>
+        <img
+          src="https://assets.interntheory.com/creative/logo.png"
+          alt="intern"
+        />
+      </div>
+      <div>
+        <h4>Develop Your Skillset</h4>
+        <h6>Online Skill Development Programs</h6>
+        <p>Taught by Industry Experts Internship</p>
+        <p>Certified Courses</p>
+        <p>Guaranteed Internship Opportunities</p>
+      </div>
+      <div>
+        <p>4-6 Weeks</p>
+        <a href="/day-2/course.html"><button>UPGRADE SKILLS</button></a>
+      </div>
+    </div>
+    <div id="container"></div>
+  </body>
+  <script src="/Script/intern.js"></script>
+  <script
+    src="https://kit.fontawesome.com/b66b1c8b72.js"
+    crossorigin="anonymous"
+  ></script>
+  <script></script>
+</html>

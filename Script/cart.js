@@ -35,6 +35,7 @@ function display(cartLS) {
     let enter = document.querySelector("#coupon").value;
     if (enter == "FIRSTCOURSE") {
       total = total * 0.8;
+      total = total.toFixed(2);
       document.querySelector("#Total").innerText = "₹ " + total;
     }
   });
