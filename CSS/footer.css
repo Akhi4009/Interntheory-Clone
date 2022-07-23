@@ -1,0 +1,40 @@
+footer {
+  background-color: #446478;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+footer a > p {
+  color: white;
+}
+#social {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+@media all and (min-width: 767px) and (max-width: 1024px) {
+  footer > div:nth-child(1) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer > div:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media all and (min-width: 320px) and (max-width: 767px) {
+  footer > div:nth-child(1) {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer > div:nth-child(2) {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

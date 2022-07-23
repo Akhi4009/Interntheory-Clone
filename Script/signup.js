@@ -39,4 +39,5 @@ function storeData() {
   arrData.push(obj);
 
   localStorage.setItem("sign_up", JSON.stringify(arrData));
+  alert(`Registerd successfully`);
 }

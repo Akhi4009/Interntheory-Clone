@@ -36,6 +36,7 @@ function display(cartLS) {
     if (enter == "FIRSTCOURSE") {
       total = total * 0.8;
       total = total.toFixed(2);
+      localStorage.setItem("Total", JSON.stringify(total));
       document.querySelector("#Total").innerText = "₹ " + total;
     }
   });

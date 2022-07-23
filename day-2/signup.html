@@ -6,38 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/CSS/header.css" />
     <link rel="stylesheet" href="/CSS/signup.css" />
+    <link rel="stylesheet" href="/CSS/footer.css">
     <title>Registor</title>
   </head>
   <body>
     <header>
       <div id="nav-bar">
-        <div class="nav">
-          <div>
-            <button tabindex="0" type="button"></button>
+        <div>
+     
+          <div id="sidebar">
+            <div class="toggle-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul>
+              <a href="/day-2/index.html"><li>Home</li></a>
+             <a href="/day-2/internship.html"> <li>Internships</li></a>
+              <a href="/day-2/job.html"><li>Job</li></a>
+             <a href="/day-2/course.html"> <li>Courses</li></a>
+              <a href="/day-2/contact.html"><li>Contact Us</li></a>
+              <a href="/day-2/signup.html"><li>Registor</li></a>
+              <a href="/day-2/signin.html"><li>Login</li></a>
+            </ul>
           </div>
-          <div>
+          
+          
             <a href="/day-2/index.html">
-              <img
+              <img 
                 src="https://assets.interntheory.com/creative/logo.png"
-                alt="logo"
-              />
-            </a>
+                alt="logo" style="width: 60%;margin-left: 60px;">
+          
           </div>
-        </div>
-        <div class="nav">
-          <div><button>
+       <div>
+        <div><button>
             <a href="/day-2/cart.html">
               <i class="fa-solid fa-cart-shopping"></i>
               </a></button>
             
           </div>
-          <div>
+          <div id="user">
             <a role="button" tabindex="0" href="/day-2/signin.html">
               <span id="sign">SIGN IN</span></a
             >
           </div>
+          </div>
         </div>
-      </div>
+     
     </header>
     <div id="register">
       <div>
@@ -160,4 +175,6 @@
     <script src="https://kit.fontawesome.com/b66b1c8b72.js" crossorigin="anonymous"></script>
 
   <script src="/Script/signup.js"></script>
+  <script src="/Script/nav.js"></script>
+  <script src="/Script/cart2.js"></script>
 </html>

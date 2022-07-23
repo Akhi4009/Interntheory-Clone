@@ -7,37 +7,55 @@
     <title>Document</title>
     <link rel="stylesheet" href="/CSS/header.css" />
     <link rel="stylesheet" href="/CSS/index.css" />
+    <link rel="stylesheet" href="/CSS/footer.css">
   </head>
   <body>
     <header>
       <div id="nav-bar">
-        <div class="nav">
-          <div>
-            <button tabindex="0" type="button"></button>
+        <div>
+     
+          <div id="sidebar">
+            <div class="toggle-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul>
+              <a href="/day-2/index.html"><li>Home</li></a>
+             <a href="/day-2/internship.html"> <li>Internships</li></a>
+              <a href="/day-2/job.html"><li>Job</li></a>
+             <a href="/day-2/course.html"> <li>Courses</li></a>
+              <a href="/day-2/contact.html"><li>Contact Us</li></a>
+              <a href="/day-2/signup.html"><li>Registor</li></a>
+              <a href="/day-2/signin.html"><li>Login</li></a>
+              <a href=""><li id="logout">Log Out</li></a>
+            </ul>
           </div>
-          <div>
+          
+          
             <a href="/day-2/index.html">
-              <img
+              <img 
                 src="https://assets.interntheory.com/creative/logo.png"
-                alt="logo"
+                alt="logo" width="60%" style="margin-left: 60px;"
               />
             </a>
+          
           </div>
-        </div>
-        <div class="nav">
-          <div><button>
+       <div>
+        <div><button>
             <a href="/day-2/cart.html">
               <i class="fa-solid fa-cart-shopping"></i>
               </a></button>
             
           </div>
-          <div>
+          <div id="user">
             <a role="button" tabindex="0" href="/day-2/signin.html">
               <span id="sign">SIGN IN</span></a
             >
           </div>
+          </div>
         </div>
-      </div>
+     
     </header>
     <section class="middle">
       <div id="middle">
@@ -47,6 +65,25 @@
           Internship. Get Placed
         </p>
       </div>
+      <div id="filter">
+        
+        <select name="city" id="city">
+            <option value="">City</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Noida">Noida</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+        <select name="" id="preference">
+            <option value="">Preferences...</option>
+            <option value="Web Design And Development">Web Design And Development</option>
+            <option value="Content Writing">Content Writing</option>
+            <option value="Software Development">Software Development</option>
+            <option value="Data Analysts">Data Analysts</option>
+            <option value="Digital Designing">Digital Designing</option>
+        </select>
+    </div>
     </section>
     <section id="logo">
       <div>
@@ -304,5 +341,8 @@
       <div><p>© 2015 - 2022 INTERNTHEORY. ALL RIGHTS RESERVED.</p></div>
     </footer>
   </body>
+  <script src="/Script/logout.js"></script>
+  <script src="/Script/cart2.js"></script>
+  <script src="/Script/nav.js"></script>
   <script src="https://kit.fontawesome.com/b66b1c8b72.js" crossorigin="anonymous"></script>
 </html>

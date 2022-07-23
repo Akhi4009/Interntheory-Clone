@@ -210,7 +210,3 @@ function display(data) {
     document.querySelector("#container").append(div);
   });
 }
-
-function show() {
-  document.querySelector("#side-bar").classList.toggle("active");
-}

@@ -1,0 +1,56 @@
+* {
+  font-family: sans-serif;
+}
+#description {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  line-height: 20px;
+}
+form {
+  width: 40%;
+  margin: auto;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px;
+  display: grid;
+  gap: 10px;
+}
+label {
+  font-size: 20px;
+}
+input[type="text"],
+#mbl {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+form button {
+  padding: 10px;
+  background-color: darkred;
+  color: #ccc;
+  font-size: 20px;
+}
+form button:hover {
+  background-color: lightcoral;
+  cursor: pointer;
+}
+#social_media {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  font-size: 30px;
+}
+#mobile {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+@media all and (min-width: 320px) and (max-width: 767px) {
+  #description {
+    width: 80%;
+  }
+}
