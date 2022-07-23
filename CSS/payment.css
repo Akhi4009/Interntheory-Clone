@@ -1,0 +1,29 @@
+form {
+  width: 40%;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: grid;
+  gap: 10px;
+  padding: 30px;
+  margin: 50px auto;
+}
+label {
+  font-size: 20px;
+}
+input[type="text"],
+input[type="number"],
+#expiry {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+form button {
+  padding: 20px;
+  background-color: darkred;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: lightcoral;
+}
