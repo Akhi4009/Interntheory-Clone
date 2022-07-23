@@ -41,6 +41,9 @@ footer a > p {
   margin-top: 30px;
   font-size: 30px;
 }
+.fa-solid {
+  font-size: 30px;
+}
 
 @media all and (min-width: 767px) and (max-width: 1024px) {
   footer > div:nth-child(1) {
