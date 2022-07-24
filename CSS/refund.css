@@ -1,0 +1,14 @@
+* {
+  font-family: sans-serif;
+}
+#refundPolicy {
+  width: 80%;
+  margin: 50px auto;
+}
+#refundPolicy h1 {
+  text-align: center;
+  color: blue;
+}
+li p {
+  line-height: 20px;
+}

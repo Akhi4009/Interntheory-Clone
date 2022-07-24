@@ -1,0 +1,17 @@
+* {
+  font-family: sans-serif;
+}
+#about {
+  width: 80%;
+  margin: 50px auto;
+}
+#about > div > h1 {
+  text-align: center;
+}
+#about p {
+  line-height: 20px;
+}
+#about h1,
+#about h2 {
+  color: blue;
+}
