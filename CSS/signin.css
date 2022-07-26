@@ -4,6 +4,7 @@
 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 40px;
+  background-color: #ccc;
 }
 form {
   display: grid;
@@ -18,7 +19,7 @@ label {
 }
 button {
   padding: 10px;
-  background-color: #ccc;
+  background-color: lightcyan;
   border: none;
   border-radius: 5px;
   cursor: pointer;

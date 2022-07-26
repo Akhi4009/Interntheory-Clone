@@ -4,6 +4,7 @@
 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 40px;
+  background-color: #ccc;
 }
 form {
   display: grid;
@@ -15,16 +16,21 @@ select,
 #mbl {
   padding: 10px;
   font-size: 20px;
+  border: none;
 }
+
 input[type="submit"] {
   padding: 10px;
   border: none;
-  background-color: #ccc;
+  background-color: lavender;
   cursor: pointer;
   border-radius: 5px;
 }
 input[type="submit"]:hover {
   background-color: lightskyblue;
+}
+label {
+  font-size: 20px;
 }
 @media all and (min-width: 320px) and (max-width: 768px) {
   #register {
