@@ -1,7 +1,7 @@
 <h1>Intern ineqry</h1>
 
 <h2>Descirption</h2>
-<p></p>
+<p>This is a Internship website.This website helps every student in India to find a good job.</p>
 
 <h2>Tech Stacks used in this project</h2>
 <ul>
