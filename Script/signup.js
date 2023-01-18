@@ -40,4 +40,5 @@ function storeData() {
 
   localStorage.setItem("sign_up", JSON.stringify(arrData));
   alert(`Registerd successfully`);
+  window.location.href = "/day-2/signin.html";
 }

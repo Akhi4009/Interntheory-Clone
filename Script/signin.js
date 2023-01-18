@@ -20,7 +20,7 @@ function signinFun() {
       localStorage.setItem("signin", JSON.stringify(ele));
       alert("log in successfull");
       res = true;
-      window.location.href = "/day-2/index.html";
+      window.location.href = "/index.html";
     }
   });
   if (res == false) {
