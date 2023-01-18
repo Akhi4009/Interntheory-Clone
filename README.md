@@ -1,6 +1,6 @@
-<h1>SkinStore</h1>
+<h1>Intern ineqry</h1>
 
-<h2>Intern ineqry</h2>
+<h2>Descirption</h2>
 <p></p>
 
 <h2>Tech Stacks used in this project</h2>
